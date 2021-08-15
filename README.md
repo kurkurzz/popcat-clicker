@@ -4,6 +4,14 @@ Click that popcat with no effort.
 
 ### How to run
 
+1. Go to https://github.com/kurkurzz/popcat-clicker/releases
+2. Choose latest release
+3. Download `main.app.zip` for macos user, `main.exe` for windows user.
+4. Run!
+
+Don't worry about any security issue because the code is free from any malware.
+
+
 ### How to rebuild the binary package
 - Run 
 	```sh
