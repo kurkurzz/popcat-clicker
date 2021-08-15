@@ -17,7 +17,7 @@ Click that popcat with no effort.
 
 	Something to take note, you might want to change paths in `datas` to `binaries` if you run on windows.
 
-- Or if you want to build manually, run)
+- Or if you want to build manually, run
 	```sh
 	pyinstaller --onefile -w main.py --add-binary "drivers/chromedriver.exe:drivers" --add-binary "drivers/chromedriver_macos:drivers" --add-binary "drivers/chromedriver_linux:drivers"
 	```
