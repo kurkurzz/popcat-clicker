@@ -1,5 +1,7 @@
 import os
 import sys
+import time
+import math
 import platform
 
 from selenium import webdriver
@@ -28,7 +30,17 @@ try:
 
 	driver.get('https://popcat.click')
 	element = driver.find_element_by_xpath('//*[@id="app"]/img')
+	# limit 800 pop per 30 seconds
 	while True:
-		element.click()
+		start  = time.time()
+		counter = 0
+		while True:
+			element.click()
+			counter+=1
+			if counter >= 799:
+				end = time.time()
+				diff = end - start
+				time.sleep(30-math.ceil(diff))
+				break
 finally:
-	driver.quit()
+	exit()
