@@ -43,4 +43,4 @@ try:
 				time.sleep(30-math.ceil(diff))
 				break
 finally:
-	exit()
+	sys.exit()
