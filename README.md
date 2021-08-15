@@ -1,6 +1,8 @@
 # popcat-clicker
 
-Click that popcat with no effort.
+Click that popcat with no effort using python and selenium.
+
+Note that the api limit is only 800 clicks per 30 seconds. So the script will pause on every 799 clicks
 
 ### How to run
 
@@ -8,6 +10,8 @@ Click that popcat with no effort.
 2. Choose latest release
 3. Download `main.app.zip` for macos user, `main.exe` for windows user.
 4. Run!
+
+	Note: you might need to wait a few seconds until the script running.
 
 Don't worry about any security issue because the code is free from any malware.
 
